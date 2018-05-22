@@ -1,0 +1,18 @@
+<%@page import="java.io.BufferedReader"%>
+<%@page import="java.io.FileReader"%>
+<%@page import="java.io.FileWriter"%>
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+	pageEncoding="EUC-KR"%>
+<%
+	String radioValue=request.getParameter("gosichon");
+	String file="D:/migo_vote/Migo/WebContent/WEB-INF/vote.txt";
+	FileWriter fw = new FileWriter(file, true);
+	fw.write(radioValue+"\n");
+	fw.close();
+%>
+<%
+	FileReader fr= new FileReader(file);
+	BufferedReader br = new BufferedReader(new FileReader(file));
+	while ((str = fr.readLine()) != null) {
+	}
+%>

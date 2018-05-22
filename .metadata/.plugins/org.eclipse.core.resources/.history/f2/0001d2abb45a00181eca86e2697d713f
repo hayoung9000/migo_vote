@@ -1,0 +1,32 @@
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+    pageEncoding="EUC-KR"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+<form action="voteInsert.jsp">
+	 <input type="radio" name="gosichon" value="0">  <label for="gosichon">김밥천국</label> <br>
+	 <input type="radio" name="gosichon" value="1">  <label for="gosichon">다부찌</label> <br>
+	 <input type="radio" name="gosichon" value="2">  <label for="gosichon">덕봉</label> <br>
+	 <input type="radio" name="gosichon" value="3">  <label for="gosichon">맛닭꼬</label> <br>
+	 <input type="radio" name="gosichon" value="4">  <label for="gosichon">미림분식</label> <br>
+	 <input type="radio" name="gosichon" value="5">  <label for="gosichon">바나나유</label>  <br>
+	 <input type="radio" name="gosichon" value="6">  <label for="gosichon">빨강떡볶이</label> <br>
+	 <input type="radio" name="gosichon" value="7">  <label for="gosichon">바바플</label> <br>
+	 <input type="radio" name="gosichon" value="8">  <label for="gosichon">삼동이</label> <br>
+	 <input type="radio" name="gosichon" value="9">  <label for="gosichon">삼봉</label> <br>
+	 <input type="radio" name="gosichon" value="10"> <label for="gosichon">신전떡볶이</label> <br>
+	 <input type="radio" name="gosichon" value="11"> <label for="gosichon" checked>아마스빈</label> <br>
+	 <input type="radio" name="gosichon" value="12"> <label for="gosichon">알촌</label> <br>
+	 <input type="radio" name="gosichon" value="13"> <label for="gosichon">이쁜돼지고기</label> <br>
+	 <input type="radio" name="gosichon" value="14"> <label for="gosichon">일번지막창</label> <br>
+	 <input type="radio" name="gosichon" value="15"> <label for="gosichon">지지고</label> <br>
+	 <input type="radio" name="gosichon" value="16"> <label for="gosichon">큰엄마네</label> <br>
+	 <input type="radio" name="gosichon" value="17"> <label for="gosichon">홍오로</label> <br>
+	<input type="submit" value="투표">
+</form>
+</body>
+</html>

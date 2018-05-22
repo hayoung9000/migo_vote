@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Migo/WebContent/voteOk.jsp&apos; to &apos;voteOkProc.jsp&apos;" description="Rename resource &apos;voteOk.jsp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="WebContent/voteOk.jsp" name="voteOkProc.jsp" stamp="1526831330071" updateReferences="true"/>
+</session>

@@ -1,0 +1,11 @@
+<%@page import="java.io.FileWriter"%>
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+	pageEncoding="EUC-KR"%>
+<%
+	String radioValue=request.getParameter("gosichon");
+	String src="D:/migo_vote/Migo/WebContent/WEB-INF";
+	FileWriter fw = new FileWriter("D:/vote.txt", true);
+	fw.write(radioValue+"aaa");
+	fw.write("Á¦¹ß");
+	fw.close();
+%>
